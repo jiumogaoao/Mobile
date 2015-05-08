@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+. lvbh_nav{
+		position:relative}
+	.line{
+		background-color:#ABA9A9;
+		height:1rem;
+		width:100%;
+		position:absolute;
+		top:1.5rem;
+		left:0px}
+	.hl .line{
+		background-color:#02DEF9;
+		border-radius:1rem;
+		}
+	.num{
+		width:3rem;
+		height:3rem;
+		background-color:#F46F08;
+		border-radius:3rem;
+		text-align:center;
+		line-height:3rem;
+		margin:auto;
+		color:#F7F7F7;
+		}
+	.hl .num{
+		background-color:#02DEF9
+		}
+	.hl .text-center{
+		color:#02DEF9}
+	@media screen and (orientation:portrait) {
+	.glyphicon{
+			font-size:7rem;
+			color:#6DF5AF;
+			}
+}
+	@media screen and (orientation:landscape) {
+		.glyphicon{
+		font-size:3.5rem;
+		color:#6DF5AF;
+		}

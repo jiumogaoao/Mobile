@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html id="WiredIn">
+<head>
+<meta charset="UTF-8">
+<title>lvbh</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet"
+	href="../../style/js/bootstrap/css/bootstrap.min.css">
+
+<link rel="stylesheet"
+	href="../../style/js/bootstrap/css/bootstrap-theme.min.css">
+
+<link rel="stylesheet"
+	href="../../style/js/bootstrap/fonts/glyphicons-halflings-regular.eot">
+<link rel="stylesheet"
+	href="../../style/js/bootstrap/fonts/glyphicons-halflings-regular.svg">
+<link rel="stylesheet"
+	href="../../style/js/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+<link rel="stylesheet"
+	href="../../style/js/bootstrap/fonts/glyphicons-halflings-regular.woff">
+<link rel="stylesheet"
+	href="../../style/js/bootstrap/fonts/glyphicons-halflings-regular.woff2">
+<link rel="stylesheet" href="../../style/css/mobile.css">
+<script type="text/javascript" src="../../style/js/jquery.js"></script> 
+<script
+	src="../../style/js/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../style/js/dselect.js"></script>
+</head>
+
+<body style="padding:0px;margin:0px;">
+<form class="container-fluid">
+	<header>
+		<div class="navbar-default">
+        	
+            	
+               		<img class="img-responsive" src="../../style/images/logo.png"/>
+
+        </div>
+	</header>
+	<div id="content" role="main" class="container" style="padding-bottom:4rem">
+    			<div class="row">
+            	<div class="col-xs-4 lvbh_nav hl">
+                	<div class="line"></div>
+                    <div class="col-xs-8 col-xs-offset-2" style="padding:0px;padding-top:.4rem">
+                        <div class="num">1</div>
+                        <h6 class="text-center">填写</h6>
+                    </div>
+                </div>
+                <div class="col-xs-4 lvbh_nav">
+                	<div class="line"></div>
+                    <div class="col-xs-8 col-xs-offset-2" style="padding:0px;padding-top:.4rem">
+                        <div class="num">2</div>
+                        <h6 class="text-center">验证</h6>
+                    </div>
+                </div>
+                <div class="col-xs-4 lvbh_nav">
+                	<div class="line"></div>
+                    <div class="col-xs-8 col-xs-offset-2" style="padding:0px;padding-top:.4rem">
+                        <div class="num">3</div>
+                        <h6 class="text-center">注册成功</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            	<div class="col-xs-6"></div>
+                <div class="col-xs-6"></div>
+            </div>
+            <div class="row">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" class="col-xs-10 col-xs-offset-1">手机注册</label>
+                    <div class="col-xs-10 col-xs-offset-1"><input class="form-control" id="mobile" name="mobile" placeholder="请输入手机号码" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" class="col-xs-10 col-xs-offset-1">登录密码</label>
+                    <div class="col-xs-10 col-xs-offset-1"><input class="form-control" id="p" name="p" placeholder="请输入密码，6-20个字符" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" class="col-xs-10 col-xs-offset-1">确认密码</label>
+                    <div class="col-xs-10 col-xs-offset-1"><input class="form-control" id="f" name="f" placeholder="请再次输入密码" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword3" class="col-xs-10 col-xs-offset-1">归属地</label>
+                    <div class="col-xs-5 col-xs-offset-1">
+                      <select class="form-control" id="s1" name="s1">
+  
+                    </select>
+                    </div>
+                    <div class="col-xs-5">
+                      <select class="form-control" id="s2" name="s2">
+        
+                    </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword3" class="col-xs-10 col-xs-offset-1">加入圈子</label>
+                    <div class="col-xs-5 col-xs-offset-1">
+                      <input class="form-control" id="pid" name="pid" placeholder="请填写邀请人ID" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                    </div>
+                    <div class="clearfix"></div>
+                    
+                        <div class="col-xs-11 col-xs-offset-1">
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox" id="register_type" name="register_type" data-toggle="tooltip" data-placement="top" title="Tooltip on top"> <h6 style="position:relative;top:-.3rem">绑定每一位会员仅能加入一个圈子，加入后不能解除绑定</h6>
+                            </label>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="form-group">
+                  
+                    <label for="inputPassword3" class="col-xs-10 col-xs-offset-1">验证码</label>
+                    <div class="col-xs-4 col-xs-offset-1">
+                      <input class="form-control" id="v" name="v" data-toggle="tooltip" data-placement="top" title="Tooltip on top"/>
+                    </div>
+                   
+                        <div class="col-xs-3" style="position:relative;top:.2rem"><img src="../../style/images/untitled.png" class="img-responsive"/></div>
+                            <div class="col-xs-4">
+                                <h6>看不清？<span style="color:#02DEF9">换一张</span></h6>
+                            </div>
+                   
+                    	
+                  </div>
+                 
+            </div>
+            <div class="row" style="margin-top:1rem">
+            <a class="col-xs-4 col-xs-offset-1" href="doc.html" target="_blank">服务条款</a>
+            </div>
+			
+	</div>
+	<footer class="navbar-fixed-bottom">
+		
+        	<div class="form-group">
+                      <button type="submit" class="btn btn-default col-xs-12" id="send_reg">同意服务条款并注册</button>
+             </div>
+       
+	</footer>
+    </form>
+</body>
+</html>
+
+<script>
+$(window).on("resize",function(){
+	$("html").css("font-size",($(window).width()/360)*10);
+	})
+$("html").css("font-size",($(window).width()/360)*10);
+</script>
+<script>
+$("#mobile").blur(function() {
+		var val0 = $(this).val();
+		if (val0 == "" || val0.length != 11) {
+			$("#mobile").attr("title","请输入手机号码，11个数字").tooltip('show');
+		} else if (!/^1[0-9]{10}$/.test(val0)) {
+			$("#mobile").attr("title","请输入正确手机号码").tooltip('show');
+		} else {
+			$.ajax({
+				type : "post",
+				url : "../user/verim.jspx",
+				data : "mobile=" + val0,
+				beforeSend : function() {
+				},
+				success : function(data) {
+					$("#error_mobile").html(data.message).addClass("formtips");
+				}
+			});
+				  
+		}
+	});
+	$("#email").blur(function() {
+		var val0 = $(this).val();
+		if (val0 == "") {
+			$("#email").attr("title","请输入正确手机号码").tooltip('show');
+		} else if (!/.+@.+\.[a-zA-Z]{2,4}$/.test(val0)) {
+			$("#email").attr("title","请输入正确邮箱地址").tooltip('show');
+		} else {
+			$.ajax({
+				type : "post",
+				url : "../user/verie.jspx",
+				data : "email=" + val0,
+				beforeSend : function() {
+				},
+				success : function(data) {
+					$("#error_email").html(data.message).addClass("formtips");
+				}
+			});
+		}
+	});
+	$("#p").blur(function() {
+		var val0 = $(this).val();
+		if (val0 == "" || val0.length < 6 || val0.length > 20) {
+			$("#p").attr("title","请输入密码，6-20个字符").tooltip('show');
+		} else if (/^(\w)\1+$/.test(val0)) {
+			$("#p").attr("title","请输入正确密码，不能输入相同的数字或字母").tooltip('show');
+		} else if (/^[1-9]\d*$/.test(val0) || /^[A-Za-z]+$/.test(val0)) {
+			$("#p").attr("title","请输入正确密码，数字和字母混合").tooltip('show');
+		} else {
+			$("#p").tooltip('hide');
+		}
+	});
+	$("#f").blur(function() {
+		var val0 = $(this).val();
+		var val1 = $("#p").val();
+		if (val0 == "") {
+			$("#f").attr("title","请输入确认密码").tooltip('show');
+		} else if (val0 != val1) {
+			$("#f").attr("title","请输入正确确认密码，和密码需要一样").tooltip('show');
+		} else {
+			$("#f").tooltip('hide');
+		}
+	});
+	$("#pid").blur(function() {
+		var val0 = $(this).val();
+		if ($("[name='register_type']").eq(0).prop("checked")) {
+			if (val0 == "") {
+				$("#pid").attr("title","请输入圈子邀请码").tooltip('show');
+			} else {
+				$.ajax({
+					type : "post",
+					url : "../user/verip.jspx",
+					data : "pid=" + val0,
+					beforeSend : function() {
+					},
+					success : function(data) {
+						$("#error_pid").html(data.message).addClass("formtips");
+					}
+				});
+			}
+		} else {
+			$("#pid").tooltip('hide');
+		}
+	});
+	$("#v").blur(function() {
+		var val0 = $(this).val();
+		if (val0 == "") {
+			$("#v").attr("title","请输入验证码").tooltip('show');
+		} else {
+			$("#v").tooltip('hide');
+		}
+	});
+	$("[name='register_type']").eq(0).click(function() {
+		
+		if (!$(this).prop("checked")) {
+			$("#pid").tooltip('hide');
+		}
+	});
+	$("#send_reg").click(function() {
+		if ($("[name='rt']").eq(0).prop("checked")) {
+			var val0 = $("#mobile").val();
+			var val1 = $("#p").val();
+			var val2 = $("#f").val();
+			var val3 = $("#pid").val();
+			var val4 = $("#v").val();
+
+			if (val0 == "" || val0.length != 11) {
+				$("#mobile").attr("title","请输入手机号码，11个数字").tooltip('show');
+				//$("#mobile").focus();
+			} else if (!/^1[0-9]{10}$/.test(val0)) {
+				$("#mobile").attr("title","请输入正确手机号码，11个数字").tooltip('show');
+				//$("#mobile").focus();
+			} else if ($("#error_mobile").html() != "") {
+				$("#mobile").tooltip('hide');
+			} else if (val1 == "" || val1.length < 6 || val1.length > 20) {
+				$("#p").attr("title","请输入密码，6-20个字符").tooltip('show');
+				//$("#p").focus();
+			} else if (/^(\w)\1+$/.test(val1)) {
+				$("#p").attr("title","请输入正确密码，不能输入相同的数字或字母").tooltip('show');
+				//$("#p").focus();
+			} else if (/^[1-9]\d*$/.test(val1) || /^[A-Za-z]+$/.test(val1)) {
+				$("#p").attr("title","请输入正确密码，数字和字母混合").tooltip('show');
+				//$("#p").focus();
+			} else if ($("#error_password").html() != "") {
+				$("#p").tooltip('hide');
+				//$("#p").focus();
+			} else if (val2 == "") {
+				$("#f").attr("title","请输入确认密码").tooltip('show');
+				//$("#f").focus();
+			} else if (val2 != val1) {
+				$("#f").attr("title","请输入正确确认密码，和密码需要一样").tooltip('show');
+				//$("#f").focus();
+			} else if ($("#error_fixPassword").html() != "") {
+				$("#f").tooltip('hide');
+				//$("#f").focus();
+			} else if ($("[name='register_type']").eq(0).prop("checked") && val3 == "") {
+				$("#pid").tooltip('hide');		
+				//$("#pid").focus();
+			} else if ($("#error_pid").html() != "") {
+				$("#pid").tooltip('hide');
+				//$("#pid").focus();
+			} else if (val4 == "") {
+				$("#v").attr("title","请输入验证码").tooltip('show');
+				//$("#v").focus();
+			} else if ($("#error_verify").html() != "") {
+				$("#v").tooltip('hide');
+				//$("#v").focus();
+			} else {
+				$('#regForm').ajaxSubmit(function(data) {
+					if (data.message == 'SUCCESS') {
+						location.href = '../user/regv.jspx';
+					} else {
+						$("#reg_error_msg").html(data.message).addClass("formtips");
+					}
+				});
+			} 
+		}
+		if ($("[name='rt']").eq(1).prop("checked")) {
+			var val0 = $("#email").val();
+			var val1 = $("#p").val();
+			var val2 = $("#f").val();
+			var val3 = $("#pid").val();
+			var val4 = $("#v").val();
+
+			if (val0 == "") {
+				$("#email").attr("title","请输入邮箱地址").tooltip('show');
+				//$("#email").focus();
+			} else if (!/.+@.+\.[a-zA-Z]{2,4}$/.test(val0)) {
+				$("#email").attr("title","请输入正确邮箱地址").tooltip('show');
+				//$("#email").focus();
+			} else if ($("#error_email").html() != "") {
+				$("#email").tooltip('hide');
+				//$("#email").focus();
+			} else if (val1 == "" || val1.length < 6 || val1.length > 20) {
+				$("#p").attr("title","请输入密码，6-20个字符").tooltip('show');
+				
+				//$("#p").focus();
+			} else if (/^(\w)\1+$/.test(val1)) {
+				$("#p").attr("title","请输入正确密码，不能输入相同的数字或字母").tooltip('show');
+				//$("#p").focus();
+			} else if (/^[1-9]\d*$/.test(val1) || /^[A-Za-z]+$/.test(val1)) {
+				$("#p").attr("title","请输入正确密码，数字和字母混合").tooltip('show');
+				//$("#p").focus();
+			} else if ($("#error_password").html() != "") {
+				$("#p").tooltip('hide');
+				//$("#p").focus();
+			} else if (val2 == "") {
+				$("#f").attr("title","请输入确认密码").tooltip('show');
+				//$("#f").focus();
+			} else if (val2 != val1) {
+				$("#f").attr("title","请输入正确确认密码，和密码需要一样").tooltip('show');
+				//$("#f").focus();
+			} else if ($("#error_fixPassword").html() != "") {
+				$("#f").tooltip('hide');
+				//$("#f").focus();
+			} else if ($("[name='register_type']").eq(0).prop("checked") && val3 == "") {
+				$("#pid").attr("title","请输入圈子邀请码").tooltip('show');
+				
+				//$("#pid").focus();
+			} else if ($("#error_pid").html() != "") {
+				$("#pid").tooltip('hide');	
+				//$("#pid").focus();
+			} else if (val4 == "") {
+				$("#v").attr("title","请输入验证码").tooltip('show');
+				//$("#v").focus();
+			} else if ($("#error_verify").html() != "") {
+				$("#v").tooltip('hide');	
+				//$("#s").focus();
+			} else {
+				$('#regForm').ajaxSubmit(function(data) {
+					if (data.message == 'SUCCESS') {
+						location.href = '../user/regv.jspx';
+					} else {
+						$("#reg_error_msg").html(data.message).addClass("formtips");
+					}
+				});
+			}
+		}
+	})
+	var dyc = {"0" : ["北京",101,"天津",102,"河北",103,"山西",104,"内蒙",105,"辽宁",121,"吉林",122,"黑龙江",123,"上海",141,"江苏",142,"浙江",143,"安徽",144,"福建",145,"江西",146,"山东",147,"广东",161,"广西",162,"海南",163,"河南",181,"湖北",182,"湖南",183,"重庆",201,"四川",202,"贵州",203,"云南",204,"西藏",205,"陕西",221,"甘肃",222,"青海",223,"宁夏",224,"新疆",225,"香港",241,"澳门",242,"台湾",243],"0_0" : ["北京",1001],"0_1" : ["天津",1002],"0_2" : ["保定",1003,"沧州",1004,"承德",1005,"邯郸",1006,"衡水",1007,"廊坊",1008,"秦皇岛",1009,"石家庄",1010,"唐山",1011,"邢台",1012,"张家口",1013],"0_3" : ["长治",1014,"大同",1015,"晋城",1016,"晋中",1017,"临汾",1018,"吕梁",1019,"朔州",1020,"太原",1021,"忻州",1022,"阳泉",1023,"运城",1024],"0_4" : ["阿拉善",1025,"包头",1026,"巴彦淖尔",1027,"赤峰",1028,"鄂尔多斯",1029,"呼和浩特",1030,"呼伦贝尔",1031,"通辽",1032,"乌海",1033,"乌兰察布",1034,"锡林郭勒",1035,"兴安",1036],"0_5" : ["鞍山",1051,"本溪",1052,"朝阳",1053,"大连",1054,"丹东",1055,"抚顺",1056,"阜新",1057,"葫芦岛",1058,"锦州",1059,"辽阳",1060,"盘锦",1061,"沈阳",1062,"铁岭",1063,"营口",1064],"0_6" : ["白城",1065,"白山",1066,"长春",1067,"吉林",1068,"辽源",1069,"四平",1070,"松原",1071,"通化",1072,"延边",1073],"0_7" : ["大庆",1074,"大兴安岭",1075,"哈尔滨",1076,"鹤岗",1077,"黑河",1078,"佳木斯",1079,"鸡西",1080,"牡丹江",1081,"齐齐哈尔",1082,"七台河",1083,"双鸭山",1084,"绥化",1085,"伊春",1086],"0_8" : ["上海",1101],"0_9" : ["常州",1102,"淮安",1103,"连云港",1104,"南京",1105,"南通",1106,"宿迁",1107,"苏州",1108,"泰州",1109,"无锡",1110,"徐州",1111,"盐城",1112,"扬州",1113,"镇江",1114],"0_10" : ["杭州",1115,"湖州",1116,"嘉兴",1117,"金华",1118,"丽水",1119,"宁波",1120,"绍兴",1121,"台州",1122,"温州",1123,"衢州",1124,"舟山",1125],"0_11" : ["安庆",1126,"蚌埠",1127,"巢湖",1128,"池州",1129,"滁州",1130,"阜阳",1131,"合肥",1132,"淮北",1133,"淮南",1134,"黄山",1135,"六安",1136,"马鞍",1137,"宿州",1138,"铜陵",1139,"芜湖",1140,"宣城",1141,"毫州",1142],"0_12" : ["福州",1143,"龙岩",1144,"南平",1145,"宁德",1146,"莆田",1147,"泉州",1148,"三明",1149,"邵武",1150,"厦门",1151,"漳州",1152],"0_13" : ["抚州",1153,"赣州",1154,"吉安",1155,"景德镇",1156,"九江",1157,"南昌",1158,"萍乡",1159,"上饶",1160,"新余",1161,"宜春",1162,"鹰潭",1163],"0_14" : ["滨州",1164,"德州",1165,"东营",1166,"菏泽",1167,"济南",1168,"济宁",1169,"莱芜",1170,"聊城",1171,"临沂",1172,"青岛",1173,"日照",1174,"泰安",1175,"潍坊",1176,"威海",1177,"烟台",1178,"枣庄",1179,"淄博",1180],"0_15" : ["潮州",1200,"东莞",1201,"佛山",1202,"广州",1203,"河源",1204,"惠州",1205,"江门",1206,"揭阳",1207,"茂名",1208,"梅州",1209,"清远",1210,"汕头",1211,"汕尾",1212,"韶关",1213,"深圳",1214,"阳江",1215,"云浮",1216,"湛江",1217,"肇庆",1218,"中山",1219,"珠海",1220],"0_16" : ["百色",1221,"北海",1222,"崇左",1223,"防城港",1224,"贵港",1225,"桂林",1226,"河池",1227,"贺州",1228,"来宾",1229,"柳州",1230,"南宁",1231,"钦州",1232,"梧州",1233,"玉林",1234],"0_17" : ["白沙",1236,"保亭",1238,"昌江",1240,"澄迈",1241,"儋州",1242,"定安",1243,"东方",1244,"海口",1245,"乐东",1247,"临高",1248,"陵水",1250,"琼海",1251,"琼中",1253,"三沙",1254,"三亚",1255,"屯昌",1256,"万宁",1257,"文昌",1258,"五指山",1259,"西南中沙群岛",1260],"0_18" : ["安阳",1281,"漯河",1282,"鹤壁",1283,"焦作",1284,"济源",1285,"开封",1286,"洛阳",1287,"南阳",1288,"平顶山",1289,"三门峡",1290,"商丘",1291,"新乡",1292,"信阳",1293,"许昌",1294,"濮阳",1295,"郑州",1296,"周口",1297,"驻马店",1298],"0_19" : ["恩施",1299,"鄂州",1300,"黄冈",1301,"黄石",1302,"荆门",1303,"荆州",1304,"潜江",1305,"神农架",1306,"十堰",1308,"随州",1309,"天门",1310,"武汉",1311,"襄阳",1312,"咸宁",1313,"仙桃",1314,"孝感",1315,"宜昌",1316],"0_20" : ["常德",1317,"长沙",1318,"郴州",1319,"衡阳",1320,"怀化",1321,"娄底",1322,"邵阳",1323,"湘谭",1324,"湘西",1325,"益阳",1326,"永州",1327,"岳阳",1328,"张家界",1329,"株洲",1330],"0_21" : ["重庆",1351],"0_22" : ["阿坝",1352,"巴中",1353,"成都",1354,"达州",1355,"德阳",1356,"甘孜",1357,"广安",1358,"广元",1359,"乐山",1360,"凉山",1361,"眉山",1362,"绵阳",1363,"南充",1364,"内江",1365,"攀枝花",1366,"遂宁",1367,"雅安",1368,"宜宾",1369,"泸州",1370,"自贡",1371,"资阳",1372],"0_23" : ["安顺",1373,"毕节",1374,"贵阳",1375,"六盘水",1376,"黔东南",1377,"黔南",1378,"黔西南",1379,"铜仁",1380,"遵义",1381],"0_24" : ["保山",1382,"楚雄",1383,"大理",1384,"德宏",1385,"迪庆",1386,"红河",1387,"昆明",1388,"丽江",1389,"临沧",1390,"怒江",1391,"曲靖",1392,"普洱",1393,"文山",1394,"西双版纳",1395,"玉溪",1396,"昭通",1397],"0_25" : ["阿里",1398,"昌都",1399,"拉萨",1400,"林芝",1401,"那曲",1402,"日喀则",1403,"山南",1404],"0_26" : ["安康",1421,"宝鸡",1422,"汉中",1423,"商洛",1424,"铜川",1425,"渭南",1426,"西安",1427,"咸阳",1428,"延安",1429,"榆林",1430],"0_27" : ["白银",1431,"定西",1432,"甘南",1433,"嘉峪关",1434,"金昌",1435,"酒泉",1436,"兰州",1437,"临夏",1438,"陇南",1439,"平凉",1440,"庆阳",1441,"天水",1442,"武威",1443,"张掖",1444],"0_28" : ["果洛",1445,"海北",1446,"海东",1447,"海南州",1448,"海西",1449,"黄南",1450,"西宁",1451,"玉树",1452],"0_29" : ["固原",1453,"石嘴山",1454,"吴忠",1455,"银川",1456,"中卫",1457],"0_30" : ["阿克苏",1458,"阿拉尔",1459,"阿勒泰",1460,"巴音郭楞",1461,"博尔塔拉",1462,"昌吉",1463,"哈密",1464,"和田",1465,"喀什",1466,"克拉玛依",1467,"克孜勒苏",1468,"石河子",1469,"塔城",1470,"吐鲁番",1471,"图木舒克",1472,"五家渠",1473,"乌鲁木齐",1474,"伊犁",1475],"0_31" : ["九龙半岛",1491,"香港岛",1492,"新界",1493],"0_32" : ["氹仔",1494,"大堂",1495,"风顺堂",1496,"花地玛堂",1497,"路环",1498,"圣安多尼堂",1499,"望德堂",1500],"0_33" : ["高雄",1501,"花莲",1502,"嘉义",1503,"基隆",1505,"金门",1506,"垦丁",1507,"苗粟",1508,"南投",1509,"澎湖",1510,"屏东",1511,"台北",1512,"台东",1513,"台南",1514,"台中",1515,"桃园",1516,"新北",1517,"新竹",1518,"宜兰",1521,"云林",1522,"彰化",1523]};
+	var dys = ["s1", "s2"];
+	var dyd = ["${p}", "${c}"];
+	dyselectinit();
+</script>
